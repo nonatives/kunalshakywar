@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background-color:;
+    background-image: url(galaxy.jpg);
+    background-repeat: ;
 }
 .container{
    position: relative;
@@ -17,7 +18,7 @@ body{
     filter: blur(5px);
 }
 
-.text{
+.ty{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,11 +28,11 @@ body{
     /* backdrop-filter: blur(1px); */
     font-size:25px;
     font-family:monospace;
-    border: solid black 4px;
+    /* border: solid black 4px; */
     
 }
 .intro{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.685);
     color: white;
     text-align: center;
     font-family:sans-serif;
@@ -49,8 +50,9 @@ body{
 }
 .foot{
     background-color: black;
-
     width: 100%;
+    padding: 3px;
+
 }
 
 
@@ -74,3 +76,27 @@ a{
     width: 100%;
     height: auto;
 }
+.ty{
+    color: #000000;
+    font-family: sans-serif;
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space:nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgba(255, 166, 0, 0) }
+  }
