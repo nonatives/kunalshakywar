@@ -23,7 +23,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: white;
     font-size: 44px;
     /* backdrop-filter: blur(1px); */
     font-size:25px;
