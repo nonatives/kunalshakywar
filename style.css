@@ -77,7 +77,8 @@ a{
     height: auto;
 }
 .ty{
-    color: #000000;
+    color:white;
+    font:bold;
     font-family: sans-serif;
     overflow: hidden;
     border-right: .15em solid black;
