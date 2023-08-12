@@ -1,10 +1,10 @@
+ 
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-image: url(galaxy.jpg);
-    background-repeat: ;
+    background-color:whitesmoke;
 }
 .container{
    position: relative;
@@ -29,10 +29,10 @@ body{
     font-size:25px;
     font-family:monospace;
     /* border: solid black 4px; */
-    
+
 }
 .intro{
-    background-color: rgba(0, 0, 0, 0.685);
+    background-color:black;
     color:white;
     text-align: center;
     font-family:sans-serif;
@@ -43,13 +43,12 @@ body{
     color: rgb(206, 38, 38);
 }
 
-    
 
-.proj{
-    background-color:;
-}
+
+
 .foot{
-    background-color: black;
+    background-color:black;
+
     width: 100%;
     padding: 3px;
 
@@ -62,13 +61,13 @@ li{
     text-align: center;
     margin: 3px;
     padding: 2px;
-    
+
 }
 a{
     text-decoration: none;
     color: white;
     font-family: sans-serif;
-    
+
 
 
 }
@@ -82,35 +81,39 @@ a{
     font-family: sans-serif;
     overflow: hidden;
     border-right: .15em solid black;
-    white-space:nowrap; 
-    margin: 0 auto; 
+    white-space:nowrap;
+    margin: 0 auto;
     letter-spacing: .15em;
-    animation: 
+    animation:
       typing 3.5s steps(30, end),
       blink-caret .5s step-end infinite;
   }
-  
-  
+
+
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }
   }
-  
+
 
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: rgba(255, 166, 0, 0) }
   }
+
+/* screen size */
 @media only screen and (max-width:600px) {
     body {
-      font-size:14px;
+
       box-sizing: border-box;
+      /* background-color: red; */
+
     }
 
     .container{
         width: 100%;
-        position: relative;
         
-        
+
+
     }
   }
